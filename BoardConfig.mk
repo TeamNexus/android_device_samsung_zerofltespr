@@ -32,8 +32,5 @@ TARGET_SPECIFIC_HEADER_PATH += device/samsung/zerofltespr/include
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_zerofltespr_defconfig
 
-# Partitions
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3879731200
-
 # Radio
 BOARD_MODEM_TYPE := mdm9x35
