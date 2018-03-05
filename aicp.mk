@@ -6,7 +6,7 @@ $(call inherit-product, device/samsung/zerofltespr/full_zerofltespr.mk)
 # $(call inherit-product, vendor/aicp/configs/nfc_enhanced.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/aicp/configs/common_full_phone.mk)
+$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="zerofltespr" \
