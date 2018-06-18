@@ -35,5 +35,9 @@ PRODUCT_BRAND := Samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := SM-G920P
 
+# Disable RIL to fix wakelocks
+FINAL_VENDOR_BUILD_PROPERTIES += \
+	ro.ril.noril=yes
+
 # Include overriding makefile from common device tree
 include device/samsung/zero-common/zero-common-override.mk
